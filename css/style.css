@@ -281,3 +281,9 @@ body {
     color: #525151;
     text-decoration: none;
 }
+
+@media only screen and (max-width: 600px) {
+    .top-navbar .link-button {
+        width: max-content;
+    }
+}
