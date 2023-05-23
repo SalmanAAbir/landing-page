@@ -32,7 +32,7 @@ body {
 
 .top-navbar {
     padding: 20px 0px;
-    background-color: transparent;
+    background-color: #000000a6;
 }
 
 .after-heading-content {
@@ -222,7 +222,7 @@ body {
 .question-accordion .accordion-item {
     background-color: transparent;
     color: white;
-    border-color: #6c9099;
+    border-color: #00C6FB;
     text-align: left;
 }
 
@@ -232,8 +232,8 @@ body {
     padding-right: 0px;
 }
 
-.question-accordion .accordion-flush .accordion-item:last-child {
-    border-bottom: 1px solid #6c9099;
+.question-accordion.accordion-flush .accordion-item:last-child {
+    border-bottom: 1px solid #00C6FB !important;
 }
 
 .question-accordion .accordion-button::after {
@@ -253,4 +253,31 @@ body {
     -moz-transform: unset;
     -ms-transform: unset;
     -o-transform: unset;
+}
+
+.footer-icon-section .social-link {
+    color: white;
+    margin-right: 10px;
+    text-decoration: none;
+    margin-bottom: 20px;
+    display: inline-block;
+}
+
+.footer-logo-section p {
+    margin-bottom: 5px;
+}
+
+.footer-logo-section a {
+    color: white;
+    text-decoration: none;
+}
+
+.footer-logo-section .powered-by {
+    color: #525151;
+    display: block;
+}
+
+.footer-logo-section .powered-by a {
+    color: #525151;
+    text-decoration: none;
 }
