@@ -17,16 +17,131 @@ body {
     padding: 2px 10px;
     margin-top: 10px;
 }
-.top-navbar .nav-link .notification-icon{
+
+.top-navbar .nav-link .notification-icon {
     width: 20px;
 }
-.top-navbar .nav-link .user-icon{
+
+.top-navbar .nav-link .user-icon {
     width: 30px;
 }
-.top-navbar .navbar-brand img{
+
+.top-navbar .navbar-brand img {
     width: 50px;
 }
-.top-navbar{
+
+.top-navbar {
     padding: 20px 0px;
     background-color: transparent;
+}
+
+.after-heading-content {
+    background: linear-gradient(#00000026, #00000047), linear-gradient(#00000052, #0000008f), url(../img/robot-image.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding: 100px 15px;
+    position: relative;
+    background-position: center right;
+}
+
+.first-heading {
+    font-size: 85px;
+    color: #00C6FB;
+}
+
+.second-heading {
+    font-size: 50px;
+}
+
+.third-heading {
+    font-size: 48px;
+}
+
+.after-heading-content .content {
+    font-size: 20px;
+    margin: 50px 0px;
+
+}
+
+.after-heading-content .play-icon {
+    color: #00C6FB;
+    text-decoration: none;
+    font-size: 20px;
+}
+
+.after-heading-content .play-icon img {
+    width: 40px;
+    margin-right: 5px;
+}
+
+.block-section .box {
+    border: 3px solid #00C6FB;
+    border-radius: 20px;
+    -webkit-border-radius: 20px;
+    -moz-border-radius: 20px;
+    -ms-border-radius: 20px;
+    -o-border-radius: 20px;
+    color: #00C6FB;
+    padding: 20px;
+    text-align: center;
+}
+
+.block-section .inner-box {
+    padding: 80px 0px;
+    background-color: #313234;
+    border-radius: 20px;
+}
+
+.block-section .box-col {
+    padding: 0px 30px;
+    margin-bottom: 20px;
+}
+
+.why-section {
+    padding-top: 100px;
+    text-align: center;
+}
+
+.why-section .why-heading {
+    font-size: 50px;
+    margin-bottom: 10px;
+}
+
+
+.why-section .why-heading span {
+    color: #00C6FB;
+}
+
+.why-section .why-content {
+    font-size: 20px;
+    color: #525151;
+    margin-bottom: 70px;
+}
+
+.why-section .top-content {
+    max-width: 750px;
+
+}
+
+.why-section .box {
+    padding: 50px 15px;
+    background-color: #131212;
+    border-radius: 15px;
+    -webkit-border-radius: 15px;
+    -moz-border-radius: 15px;
+    -ms-border-radius: 15px;
+    -o-border-radius: 15px;
+    margin-bottom: 20px;
+}
+
+.why-section .box img {
+    width: 70px;
+    margin-bottom: 70px;
+    margin-top: 20px;
+}
+
+.why-section .box p {
+    font-size: 20px;
+    max-width: 220px;
+    margin: auto;
 }
