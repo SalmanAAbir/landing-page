@@ -74,6 +74,11 @@ body {
     margin-right: 5px;
 }
 
+.block-section {
+    padding: 50px 15px;
+    background: linear-gradient(#001216, #000000);
+}
+
 .block-section .box {
     border: 3px solid #00C6FB;
     border-radius: 20px;
@@ -88,7 +93,7 @@ body {
 
 .block-section .inner-box {
     padding: 80px 0px;
-    background-color: #313234;
+    background-color: #6e6e6e7d;
     border-radius: 20px;
 }
 
